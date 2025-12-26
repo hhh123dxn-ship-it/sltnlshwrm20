@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>منيو مطعمي</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f8f8f8;
+            color: #333;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+        header {
+            background-color: #d4af37; /* لون ذهبي أنيق */
+            padding: 40px;
+            color: white;
+        }
+        h1 {
+            margin: 0;
+            font-size: 3em;
+        }
+        h2 {
+            background-color: #333;
+            color: white;
+            padding: 20px;
+            margin: 40px 0 20px;
+        }
+        .menu-section {
+            max-width: 800px;
+            margin: 0 auto 40px;
+            padding: 20px;
+            background-color: white;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+            border-radius: 10px;
+        }
+        .item {
+            display: flex;
+            justify-content: space-between;
+            padding: 15px 0;
+            border-bottom: 1px dotted #ccc;
+        }
+        .item:last-child {
+            border-bottom: none;
+        }
+        .item-name {
+            font-weight: bold;
+            text-align: right;
+        }
+        .item-price {
+            color: #d4af37;
+            font-weight: bold;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            padding: 20px;
+            margin-top: 40px;
+        }
+        @media (max-width: 600px) {
+            .item {
+                flex-direction: column;
+            }
+            .item-price {
+                margin-top: 10px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>مطعمي الرائع</h1>
+        <p>أشهى الأطباق العربية والعالمية</p>
+    </header>
+
+    <div class="menu-section">
+        <h2>المقبلات</h2>
+        <div class="item">
+            <span class="item-name">حمص بالطحينة</span>
+            <span class="item-price">15 ريال</span>
+        </div>
+        <div class="item">
+            <span class="item-name">تبولة</span>
+            <span class="item-price">18 ريال</span>
+        </div>
+        <div class="item">
+            <span class="item-name">فتوش</span>
+            <span class="item-price">20 ريال</span>
+        </div>
+        <div class="item">
+            <span class="item-name">ورق عنب</span>
+            <span class="item-price">25 ريال</span>
+        </div>
+    </div>
+
+    <div class="menu-section">
+        <h2>الأطباق الرئيسية</h2>
+        <div class="item">
+            <span class="item-name">كباب مشوي</span>
+            <span class="item-price">50 ريال</span>
+        </div>
+        <div class="item">
+            <span class="item-name">مندي دجاج</span>
+            <span class="item-price">45 ريال</span>
+        </div>
+        <div class="item">
+            <span class="item-name">مشاوي مشكلة</span>
+            <span class="item-price">80 ريال</span>
+        </div>
+        <div class="item">
+            <span class="item-name">سمك مشوي</span>
+            <span class="item-price">60 ريال</span>
+        </div>
+    </div>
+
+    <div class="menu-section">
+        <h2>الحلويات</h2>
+        <div class="item">
+            <span class="item-name">كنافة</span>
+            <span class="item-price">20 ريال</span>
+        </div>
+        <div class="item">
+            <span class="item-name">بقلاوة</span>
+            <span class="item-price">25 ريال</span>
+        </div>
+        <div class="item">
+            <span class="item-name">أم علي</span>
+            <span class="item-price">22 ريال</span>
+        </div>
+    </div>
+
+    <div class="menu-section">
+        <h2>المشروبات</h2>
+        <div class="item">
+            <span class="item-name">شاي</span>
+            <span class="item-price">5 ريال</span>
+        </div>
+        <div class="item">
+            <span class="item-name">قهوة عربية</span>
+            <span class="item-price">10 ريال</span>
+        </div>
+        <div class="item">
+            <span class="item-name">عصير برتقال</span>
+            <span class="item-price">15 ريال</span>
+        </div>
+        <div class="item">
+            <span class="item-name">ماء معدني</span>
+            <span class="item-price">5 ريال</span>
+        </div>
+    </div>
+
+    <footer>
+        <p>شكراً لزيارتكم مطعمي الرائع - اتصل بنا: 0501234567</p>
+    </footer>
+</body>
+</html>
